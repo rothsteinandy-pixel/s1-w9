@@ -22,5 +22,13 @@ public class Name {
     private String fixCase (String part) {
       part = part.toLowerCase().trim();
       return part.substring(0,1).toUpperCase() + part.substring(1);
+
+   
     }
+     public boolean isSame(Name other){
+      return this.myFirst== other.myFirst;
+
+
+      }
+      
  }
